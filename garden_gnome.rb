@@ -14,6 +14,10 @@ class GardenGnome
    @name
   end
 
+  def personality
+    @personality
+  end 
+
   def age=(g_age)
   @age = g_age
   end
