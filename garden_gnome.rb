@@ -32,7 +32,7 @@ class GardenGnome
 
 end
 
-title = GardenGnome.new(personality)
+title = GardenGnome.new
 title.name = "Steve"
 title.age = "4000"
 puts "My gnome's name is #{title.name}. He is #{title.age} years old."
