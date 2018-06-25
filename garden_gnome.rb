@@ -1,7 +1,7 @@
 # Code your instances here
 class GardenGnome
 
-  def initialize(personality = "evil")
+  def initialize
   @personality = "evil"
   puts "My gnome has an #{personality} personality."
   end
@@ -16,7 +16,7 @@ class GardenGnome
 
   def personality
     @personality
-  end 
+  end
 
   def age=(g_age)
   @age = g_age
