@@ -33,10 +33,10 @@ class GardenGnome
   @gluten_allergy
   end
 
-  puts "My gnome has an #{personality} personality."
 end
 
 title = GardenGnome.new
 title.name = "Steve"
 title.age = "4000"
 puts "My gnome's name is #{title.name}. He is #{title.age} years old."
+  puts "My gnome has an #{personality} personality."
