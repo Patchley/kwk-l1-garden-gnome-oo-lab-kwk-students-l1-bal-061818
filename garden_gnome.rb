@@ -1,8 +1,8 @@
 # Code your instances here
 class GardenGnome
 
-  def initialize(@personality = "evil")
-  @personality
+  def initialize(personality = "evil")
+  @personality = "evil"
   puts "My gnome has an #{personality} personality."
   end
 
