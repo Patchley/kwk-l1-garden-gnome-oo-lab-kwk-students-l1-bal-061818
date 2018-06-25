@@ -3,7 +3,6 @@ class GardenGnome
 
   def initialize
   @personality = "evil"
-    puts "My gnome has an #{personality} personality."
   end
 
   def name=(g_name)
